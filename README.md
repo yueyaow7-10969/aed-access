@@ -6,7 +6,7 @@ Explore historical AED availability, older residents, and a three-dimensional Pe
 
 ## Scope
 
-AED listings are from 2020. The maps and response scenarios are research outputs, not verified current availability or emergency navigation. Visit reports are demonstrations saved only in the visitor’s browser.
+AED listings are from 2020. The maps and response scenarios are research outputs, not verified current availability or emergency navigation. Visitors can submit a visit or a recheck for team review. The public report map counts approved observations. Landmark photos require contributor consent and a separate approval.
 
 ## Sources
 
@@ -14,4 +14,4 @@ Source dates, model assumptions and limitations are documented in the website’
 
 ## Publishing
 
-`site.zip` contains the complete static website. The deployment workflow verifies and extracts this package, then publishes it to GitHub Pages over HTTPS. No database or build service is required.
+`site.zip` contains the complete static website. The deployment workflow verifies and extracts this package, then publishes it to GitHub Pages over HTTPS. The static website connects to the project’s reporting Worker and hosted Ushahidi surveys.
